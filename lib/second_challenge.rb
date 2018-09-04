@@ -7,6 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
+  list = []
+
+  groceries.each do |cat, arr|
+  	arr.each {|arg| list << arg}
+  end
+
+  list
 
   
 
